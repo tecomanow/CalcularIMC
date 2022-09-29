@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Bmi(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     val id: Long,
     val weight: Double,
     val height: Double,

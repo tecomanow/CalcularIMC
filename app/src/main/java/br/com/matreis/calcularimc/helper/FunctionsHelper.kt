@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 val ptBr = Locale("pt", "BR")
-val dateFormat = SimpleDateFormat("dd/MM/yyyy", ptBr)
+val dateFormat = SimpleDateFormat("dd/MM/yyyy - HH:ss", ptBr)
 
 fun TextInputEditText.getInputValue(): Double {
     return this.text.toString().toDouble()
